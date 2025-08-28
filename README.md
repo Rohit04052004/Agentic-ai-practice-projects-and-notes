@@ -4,25 +4,44 @@ This repository contains a collection of practice projects focused on building a
 
 A `.gitignore` file is included to exclude common unwanted files such as environment variables (`.env`), Jupyter Notebook checkpoints, Python bytecode, and IDE-specific folders.
 
-## Projects
+## Handwritten Notes
 
-- **Agno Agents Tools Memory (`/Agno_agents_tools_memory`)**: Explores the `agno` library to create agents that can use tools and maintain memory. The Jupyter notebook in this directory demonstrates how to build an agent that can summarize text and search for information.
+This directory contains handwritten notes on various Agentic AI topics, including:
+- Agentic Frameworks (LangGraph, CrewAi, Agno)
+- MCP Server (Intro, Setup, Custom, Cloud)
+- Types of Agents and Reinforcement Learning
+- OpenAI Agents SDK
 
-- **Custom MCP Server with LangGraph (`/Custom_mcp_server_langgraph`)**: Implements a custom MCP (Multi-Agent Communication Protocol) server with mathematical tools. The project uses `langgraph` to create a client that can interact with the server and perform calculations.
+## Practice Projects
 
-- **Learning Agent (`/Learning_agent`)**: A Q-learning agent that learns to play the game of Snake. This project uses `pygame` for the game environment and `numpy` for the Q-table.
+This directory contains various hands-on projects.
 
-- **MCP Server on Cloud (`/MCP_server_on_cloud`)**: Demonstrates how to set up a simple MCP server on the cloud. The project includes a server with basic math tools and a client that can interact with it.
+### AgenticRAG
+- Implements Agentic Retrieval-Augmented Generation concepts.
 
-- **MCP Server Tutorial (`/MCP_server_tutorial`)**: A tutorial on how to set up and use an MCP server. The project includes a server with a calculator and a client that can interact with it.
+### Agno Agents Tools Memory
+- Demonstrates using tools and memory with the Agno agent framework.
 
-- **MCP with Agno (`/Mcp_with_agno`)**: Integrates MCP servers with the `agno` library. The project demonstrates how to create an `agno` agent that can use tools from an MCP server.
+### Custom MCP Server with LangGraph
+- A project showcasing a custom MCP server integrated with LangGraph.
 
-- **Agno (`/agno`)**: A simple demonstration of the `agno` library to create a question-answering agent.
+### Learning Agent
+- A Q-learning agent implemented to play the Snake game.
 
-- **Simple Reflex Agent (`/demo_simple_reflex_agent.py`)**: A basic implementation of a simple reflex agent in a 2x2 grid environment. The agent's goal is to clean any dirty room it encounters.
+### MCP Server on Cloud
+- Demonstrates deploying and interacting with an MCP server on the cloud.
 
-- **Handwritten Notes (`/HANDWRITTEN NOTES`)**: A collection of handwritten notes on various Agentic AI topics, including frameworks, MCP servers, and reinforcement learning.
+### MCP Server Tutorial
+- A tutorial project for setting up and using an MCP server.
+
+### MCP with Agno
+- Integration of MCP servers with the Agno agent framework.
+
+### Agno
+- A basic implementation of the Agno agent framework for Q&A.
+
+### Simple Reflex Agent
+- A simple reflex agent simulated in a 2x2 grid environment.
 
 ## Author
 

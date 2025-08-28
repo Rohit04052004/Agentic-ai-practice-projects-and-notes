@@ -8,6 +8,8 @@ This directory contains handwritten notes on various Agentic AI topics.
 
 - `Types of Agents, Reinforcement learning notes.pdf`: Notes covering different types of agents and concepts in reinforcement learning.
 
+- `openai agents SDK notes.pdf`: Detailed notes on the OpenAI Agents SDK.
+
 ## Author
 
 - Rohit Chigatapu
